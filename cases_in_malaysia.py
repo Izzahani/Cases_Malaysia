@@ -64,7 +64,7 @@ mm_scaler = MinMaxScaler()
 mm_scaler.fit(data)
 data = mm_scaler.transform(data)
 
-# %% Data Development
+# %% Model Development
 win_size = 30
 X_train = []
 y_train = []
@@ -139,30 +139,30 @@ X_test = np.array(X_test)
 y_test = np.array(y_test)
 
 # %% to predict the stock price based on the testing dataset
-predicted_price = model.predict(X_test)
+predicted_case = model.predict(X_test)
 
 # %% To visualize predicted stock price and actual price
 
 plt.figure()
-plt.plot(predicted_price, color='red')
+plt.plot(predicted_case, color='red')
 plt.plot(y_test, color='blue')
 plt.legend(['Predicted', 'Actual'])
 plt.ylabel('Cases')
 plt.show()
 
 y_test = mm_scaler.inverse_transform(y_test)
-predicted_price = mm_scaler.inverse_transform(predicted_price)
+predicted_case = mm_scaler.inverse_transform(predicted_case)
 
 plt.figure()
-plt.plot(predicted_price, color='red')
+plt.plot(predicted_case, color='red')
 plt.plot(y_test, color='blue')
 plt.legend(['Predicted', 'Actual'])
 plt.ylabel('Cases')
 plt.show()
 
 #metrics to evaluate the performance
-print("MAPE: " + str(mean_absolute_percentage_error(y_test, predicted_price)))
-print("MAE: " + str(mean_absolute_error(y_test, predicted_price)))
+print("MAPE: " + str(mean_absolute_percentage_error(y_test, predicted_case)))
+print("MAE: " + str(mean_absolute_error(y_test, predicted_case)))
 
 # %% Model Saving
 # save min max scaler
