@@ -5,7 +5,7 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-# Predicting The New Covid-19 Cases in Malaysia by using TensorFlow
+# Predicting New Covid-19 Cases in Malaysia by using TensorFlow
 
 ## Summary
 <p>This project is to predict the number of Covid-19 cases in Malaysia by using past 30 days of Covid-19 cases.</p>
