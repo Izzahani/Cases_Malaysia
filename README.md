@@ -8,6 +8,8 @@
 # Predicting New Covid-19 Cases in Malaysia by using TensorFlow
 
 ## Summary
+<p>Humanity experienced a catastrophe in the year 2020. The first case of pneumonia with an unknown cause was recorded in December 2019. Since then, COVID-19 has spread around the world and has become a pandemic. The epidemic hit more than 200 countries, and many of them implemented travel restrictions, quarantines, social distances, event postponements, and lockdowns in an effort to preserve the lives of their citizens. However, the governments' efforts were compromised by their slack behaviour, which made the virus more likely to spread widely and result in fatalities. The lack of an AI-assisted automated tracking and prediction system, according to scientists, is what has led to the COVID-19 pandemic's rapid spread.</p>
+<p>Therefore, the scientist suggested using a deep learning algorithm to forecast the daily COVID cases to decide whether or not travel prohibitions should be implemented.</p>
 <p>This project is to predict the number of Covid-19 cases in Malaysia by using past 30 days of Covid-19 cases.</p>
 <p>There are 5 steps need to be done to complete this project which are:</p>
 <p>1. Data Loading</p>
